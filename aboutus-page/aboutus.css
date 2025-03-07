@@ -15,24 +15,26 @@
 
 .brand {
     background-color: rgb(206, 200, 200);
-     position: sticky;
-    top: 0px; 
-   
+    position: sticky;
+    top: 0px;
+
 }
 
 /* end of brand name */
 /* starting of nav */
 
 .nav ul {
-    display: flex; 
+    display: flex;
     list-style: none;
     box-shadow: 0px 0px 10px black;
-    justify-content: space-around; 
+    justify-content: space-around;
+    position: fixed;
+    min-width: 100%;
 }
 
 .nav ul li {
     margin: 0px 15px;
-   
+
 }
 
 .nav ul li a {
@@ -44,3 +46,76 @@
 }
 
 /* ending of nav */
+
+/* starting of about us */
+#over-abt {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+#over-abt span {
+    text-shadow: 0px 0px 5px black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.cont-1 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 50%;
+    padding: 60px;
+    background-color: gray;
+}
+
+.cont-2 {
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cont-3 {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10px;
+}
+
+.strt {
+    text-align: left;
+}
+
+.cont-4 {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10px;
+
+}
+
+.cont-5 {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10px;
+}
+
+.cont-6 {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10px;
+}
+
+.cont-7 {
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 50%;
+    padding: 90px;
+    background-color: gray;
+
+}
