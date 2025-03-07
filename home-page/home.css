@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.brand h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+.brand {
+    background-color: rgb(206, 200, 200);
+     position: sticky;
+    top: 0px; 
+   
+}
+
+/* end of brand name */
+/* starting of nav */
+
+.nav ul {
+    display: flex; 
+    list-style: none;
+    box-shadow: 0px 0px 10px black;
+    justify-content: space-around; 
+}
+
+.nav ul li {
+    margin: 0px 15px;
+   
+}
+
+.nav ul li a {
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* ending of nav */
+
+/* starting of search bar */
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.search-cont h2 {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.search-bar input {
+    width: 400px;
+    height: 30px;
+    cursor: default;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.search-btn input {
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: rgb(139, 204, 238);
+    border: none;
+    cursor: default;
+}
+
+#overall {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+
+}
+
+#over1-img,
+#over2-img,
+#over3-img,
+#over4-img,
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.over-head {
+    text-align: center;
+
+}
+
+#over1-img,
+#over2-img,
+#over3-img,
+#over4-img,
+a {
+    text-decoration: none;
+    color: black;
+}
+

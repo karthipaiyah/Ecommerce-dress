@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.brand h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+.brand {
+    background-color: rgb(206, 200, 200);
+     position: sticky;
+    top: 0px; 
+   
+}
+
+/* end of brand name */
+
+/* starting of nav */
+
+.nav ul {
+    display: flex; 
+    list-style: none;
+    box-shadow: 0px 0px 10px black;
+    justify-content: space-around;  
+    position: fixed;
+    min-width: 100%;
+    
+}
+
+.nav ul li {
+    margin: 0px 15px;     
+}
+
+.nav ul li a {
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;  
+}
+
+/* ending of nav */
+
+/* starting of shoe*/
+
+#overpant{
+    margin-top: 60px;
+    margin-left: 10px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+   
+}
+
+.detail{
+    padding-left: 50px; 
+    padding-top: 17px;
+}
+.detail h2{
+    font-size: 50px;
+    padding: 10px;
+}
+.detail input[type="radio"]{
+    transform: scale(1.5);   
+}
+
+.detail label{
+    font-size:30px ;
+    padding: 20px;
+}
+.detail h1{
+    padding: 20px;
+}
+button{
+   padding: 10px;
+   font-size:20px;
+   background-color: lawngreen;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: lawngreen;
+    color: black;
+}
+/* end of shoe*/

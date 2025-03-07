@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.brand h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+.brand {
+    background-color: rgb(206, 200, 200);
+     position: sticky;
+    top: 0px; 
+   
+}
+
+/* end of brand name */
+/* starting of nav */
+
+.nav ul {
+    display: flex; 
+    list-style: none;
+    box-shadow: 0px 0px 10px black;
+    justify-content: space-around; 
+}
+
+.nav ul li {
+    margin: 0px 15px;
+   
+}
+
+.nav ul li a {
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* ending of nav */
